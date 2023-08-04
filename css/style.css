@@ -1082,8 +1082,8 @@ body.lock {
   padding: 100px 0;
 }
 
-.how__body.active .how__title,
-.how__body.active .how__subtitle {
+.how__body.active .grid-how__body {
+  transform: scale(1);
   opacity: 1;
   visibility: visible;
 }
@@ -1091,18 +1091,28 @@ body.lock {
 .how__title {
   margin-bottom: 28px;
   text-align: center;
-  transition: all 0.5s ease;
+  transition: all 0.5s linear;
   opacity: 0;
   visibility: hidden;
+}
+
+.how__title.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .how__subtitle {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto 86px;
-  transition: all 0.5s ease 0.3s;
+  transition: all 0.5s ease;
   opacity: 0;
   visibility: hidden;
+}
+
+.how__subtitle.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .how__list {
@@ -1160,12 +1170,6 @@ body.lock {
   transition: all 0.5s linear;
   opacity: 0;
   visibility: hidden;
-}
-
-.grid-how__body.active {
-  transform: scale(1);
-  opacity: 1;
-  visibility: visible;
 }
 
 .grid-how__item {
@@ -1383,13 +1387,6 @@ body.lock {
   padding: 100px 0;
 }
 
-.investing__body.active .investing__title,
-.investing__body.active .investing__desc {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(0, 0);
-}
-
 .investing__title {
   text-align: center;
   margin-bottom: 28px;
@@ -1397,6 +1394,12 @@ body.lock {
   opacity: 0;
   visibility: hidden;
   transform: translate(0, 50px);
+}
+
+.investing__title.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0);
 }
 
 .investing__desc {
@@ -1408,6 +1411,12 @@ body.lock {
   opacity: 0;
   visibility: hidden;
   transform: translate(0, 50px);
+}
+
+.investing__desc.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0);
 }
 
 .investing__item {
