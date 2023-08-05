@@ -661,10 +661,6 @@ body.lock {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--white);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.5s linear;
 }
 
 .main__body picture img {
@@ -686,10 +682,6 @@ body.lock {
   text-transform: uppercase;
   position: relative;
   z-index: 1;
-  transition: all 0.4s linear 0.5s;
-  transform: translate(0, 50%);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .main__desc {
@@ -701,10 +693,6 @@ body.lock {
   position: relative;
   z-index: 1;
   max-width: 960px;
-  transition: all 0.4s linear 0.7s;
-  transform: translate(0, 50%);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .main__btns {
@@ -719,10 +707,6 @@ body.lock {
   display: flex;
   align-items: center;
   color: var(--white);
-  transition: all 0.3s linear;
-  transform: scale(0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .main__btn:hover {
@@ -767,18 +751,10 @@ body.lock {
 }
 
 .for__item:first-child {
-  transform: translate(-100%, 0);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.5s linear;
   border-left: none;
 }
 
 .for__item:last-child {
-  transform: translate(100%, 0);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.5s linear;
   border-right: none;
 }
 
@@ -892,18 +868,10 @@ body.lock {
 
 .about__title {
   margin-bottom: 28px;
-  transition: all 0.2s linear;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(-100px, 0);
 }
 
 .about__subtitle {
   margin-bottom: 28px;
-  transition: all 0.2s linear 0.1s;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(-100px, 0);
 }
 
 .about__desc {
@@ -911,19 +879,11 @@ body.lock {
   color: var(--white);
   line-height: 1.5;
   font-size: 1.125rem;
-  transition: all 0.2s linear 0.2s;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(-100px, 0);
 }
 
 .about__btn {
   width: 250px;
   height: 50px;
-  transition: all 0.2s linear 0.3s;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(-100px, 0);
 }
 
 .about__image {
@@ -931,10 +891,6 @@ body.lock {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  transition: all 0.4s linear 0.5s;
-  opacity: 0;
-  visibility: hidden;
-  transform: scale(0);
 }
 
 .about__image img {
@@ -971,12 +927,6 @@ body.lock {
   row-gap: 75px;
   -moz-column-gap: 125px;
        column-gap: 125px;
-}
-
-.benefits__item {
-  opacity: 0;
-  visibility: hidden;
-  transform: scale(0);
 }
 
 .benefits__item:nth-child(1) {
@@ -1037,9 +987,6 @@ body.lock {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: all 0.5s linear;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .benefits__bg::before {
@@ -1091,9 +1038,6 @@ body.lock {
 .how__title {
   margin-bottom: 28px;
   text-align: center;
-  transition: all 0.5s linear;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .how__title.active {
@@ -1105,9 +1049,6 @@ body.lock {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto 86px;
-  transition: all 0.5s ease;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .how__subtitle.active {
@@ -1135,9 +1076,6 @@ body.lock {
   position: relative;
   line-height: 1.5;
   text-align: center;
-  transition: all 0.5s ease 0.2s;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .how__item:nth-child(even) {
@@ -1166,10 +1104,6 @@ body.lock {
 .grid-how__body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  transform: scale(0);
-  transition: all 0.5s linear;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .grid-how__item {
@@ -1390,10 +1324,6 @@ body.lock {
 .investing__title {
   text-align: center;
   margin-bottom: 28px;
-  transition: all 0.4s linear;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(0, 50px);
 }
 
 .investing__title.active {
@@ -1407,10 +1337,6 @@ body.lock {
   margin: 0 auto 100px;
   max-width: 800px;
   text-align: center;
-  transition: all 0.4s linear 0.3s;
-  opacity: 0;
-  visibility: hidden;
-  transform: translate(0, 50px);
 }
 
 .investing__desc.active {
@@ -1456,10 +1382,6 @@ body.lock {
   height: 100%;
   position: relative;
   min-height: 330px;
-  transition: all 0.5s linear;
-  transform: scale(0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .investing__image img {
@@ -1484,28 +1406,16 @@ body.lock {
   text-transform: uppercase;
   color: var(--white);
   margin-bottom: 20px;
-  transition: all 0.2s linear 0.5s;
-  transform: translate(50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .investing__about {
   color: var(--white);
   font-size: 1.125rem;
   margin-bottom: 20px;
-  transition: all 0.2s linear 0.6s;
-  transform: translate(50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .investing__btn {
   height: 50px;
-  transition: all 0.2s linear 0.7s;
-  transform: translate(0, 50px);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .reviews {
@@ -1514,9 +1424,6 @@ body.lock {
 
 .reviews__body {
   padding: 100px 0;
-  transition: all 2s linear;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .reviews__body.active {
@@ -1578,10 +1485,6 @@ body.lock {
 
 .protocol__title {
   margin-bottom: 28px;
-  transition: all 0.3s linear;
-  transform: translate(-50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .protocol__desc {
@@ -1589,27 +1492,15 @@ body.lock {
   color: var(--white);
   margin-bottom: 100px;
   line-height: 1.5;
-  transition: all 0.3s linear 0.2s;
-  transform: translate(-50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .protocol__pagination {
   justify-content: flex-start;
-  transition: all 0.2s linear 1s;
-  transform: translate(0, 50px);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .protocol__slider {
   flex: 1 1 auto;
   overflow: hidden;
-  transition: all 0.3s linear 0.5s;
-  transform: translate(100%, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .protocol__item {
@@ -1681,10 +1572,6 @@ body.lock {
   max-width: 1000px;
   text-align: center;
   margin: 0 auto 80px;
-  transition: all 0.5s linear;
-  transform: scale(0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .start__block {
@@ -1722,10 +1609,6 @@ body.lock {
   font-weight: 600;
   color: var(--white);
   margin-bottom: 28px;
-  transition: all 0.2s linear;
-  transform: translate(-50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .start__desc {
@@ -1733,19 +1616,11 @@ body.lock {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 28px;
-  transition: all 0.2s linear 0.1s;
-  transform: translate(-50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .start__btn {
   width: 210px;
   height: 53px;
-  transition: all 0.2s linear 0.2s;
-  transform: translate(-50px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .start__image {
@@ -1760,10 +1635,6 @@ body.lock {
   position: relative;
   width: 90%;
   height: 90%;
-  transition: all 0.3s linear 0.5s;
-  transform: scale(0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .start__image picture img {
@@ -1803,9 +1674,6 @@ body.lock {
   letter-spacing: 6px;
   color: var(--white);
   text-transform: uppercase;
-  transition: all 1s linear;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .faq__list {
@@ -1815,9 +1683,6 @@ body.lock {
 .faq__item {
   padding: 25px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  transform: translate(100px, 0);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .faq__item:nth-child(1) {
@@ -1891,9 +1756,6 @@ body.lock {
 
 .autro__body {
   padding: 100px 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 2s linear;
 }
 
 .autro__body.active {
@@ -2260,6 +2122,259 @@ body.lock {
   }
 }
 
+@media (min-width: 768px) {
+  .main__body picture {
+    background: var(--white);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+  }
+
+  .main__title {
+    transition: all 0.4s linear 0.5s;
+    transform: translate(0, 50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .main__desc {
+    transition: all 0.4s linear 0.7s;
+    transform: translate(0, 50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .main__btn {
+    transition: all 0.3s linear;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .for__item:first-child {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+  }
+
+  .for__item:first-child:hover .for__block {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .for__item:last-child {
+    transform: translate(100%, 0);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+  }
+
+  .for__item:last-child:hover .for__block {
+    background: rgba(147, 105, 23, 0.4);
+  }
+
+  .about__title {
+    transition: all 0.2s linear;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0);
+  }
+
+  .about__subtitle {
+    transition: all 0.2s linear 0.1s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0);
+  }
+
+  .about__desc {
+    transition: all 0.2s linear 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0);
+  }
+
+  .about__btn {
+    transition: all 0.2s linear 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-100px, 0);
+  }
+
+  .about__image {
+    transition: all 0.4s linear 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+  }
+
+  .benefits__item {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+  }
+
+  .benefits__bg {
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .how__title {
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .how__subtitle {
+    transition: all 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .how__item {
+    transition: all 0.5s ease 0.2s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .grid-how__body {
+    transform: scale(0);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .investing__title {
+    transition: all 0.4s linear;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0, 50px);
+  }
+
+  .investing__desc {
+    transition: all 0.4s linear 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0, 50px);
+  }
+
+  .investing__image {
+    transition: all 0.5s linear;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .investing__country {
+    transition: all 0.2s linear 0.5s;
+    transform: translate(50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .investing__about {
+    transition: all 0.2s linear 0.6s;
+    transform: translate(50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .investing__btn {
+    transition: all 0.2s linear 0.7s;
+    transform: translate(0, 50px);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .reviews__body {
+    transition: all 2s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .protocol__title {
+    transition: all 0.3s linear;
+    transform: translate(-50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .protocol__desc {
+    transition: all 0.3s linear 0.2s;
+    transform: translate(-50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .protocol__pagination {
+    transition: all 0.2s linear 1s;
+    transform: translate(0, 50px);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .protocol__slider {
+    transition: all 0.3s linear 0.5s;
+    transform: translate(100%, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .start__title {
+    transition: all 0.5s linear;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .start__name {
+    transition: all 0.2s linear;
+    transform: translate(-50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .start__desc {
+    transition: all 0.2s linear 0.1s;
+    transform: translate(-50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .start__btn {
+    transition: all 0.2s linear 0.2s;
+    transform: translate(-50px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .start__image picture {
+    transition: all 0.3s linear 0.5s;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .faq__title {
+    transition: all 1s linear;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .faq__item {
+    transform: translate(100px, 0);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .autro__body {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 2s linear;
+  }
+}
+
 @media (min-width: 769px) {
   .for__item:hover .for__image::after {
     opacity: 0;
@@ -2279,14 +2394,6 @@ body.lock {
     transform: translate(0, 0);
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
-  }
-
-  .for__item:first-child:hover .for__block {
-    background: rgba(0, 0, 0, 0.3);
-  }
-
-  .for__item:last-child:hover .for__block {
-    background: rgba(147, 105, 23, 0.4);
   }
 
   .info-how:hover .info-how__block {
